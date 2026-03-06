@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>k94701210網站</title>
+    <title>關於我 | 數據分析與商業智慧專家</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
 </head>
-<body>
-    <h1> 這是我的個人履歷 !!</h1>
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
+
+    <header class="py-20 bg-white border-b border-gray-200">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">你好，我是 <span class="gradient-text">數據的解碼者</span></h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                我擅長將碎片化的原始資料，轉化為具備商業洞察的決策地圖。透過程式碼與邏輯，我讓數據說出有溫度的故事。
+            </p>
+        </div>
+    </header>
+
+    <section class="py-16 container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-12 text-center">核心技術棧</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="text-blue-500 mb-4 text-3xl">🗄️</div>
+                <h3 class="font-bold text-xl mb-2">SQL Server</h3>
+                <p class="text-gray-500 text-sm">精通資料庫架構與分析技術，優化查詢效能，確保數據底層穩如磐石。</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="text-purple-500 mb-4 text-3xl">📊</div>
+                <h3 class="font-bold text-xl mb-2">Power BI 視覺化</h3>
+                <p class="text-gray-500 text-sm">打造直覺、動態的互動式報表，讓決策者在一秒內掌握關鍵 KPI。</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="text-pink-500 mb-4 text-3xl">🧠</div>
+                <h3 class="font-bold text-xl mb-2">DAX 進階運算</h3>
+                <p class="text-gray-500 text-sm">運用 DAX 撰寫複雜的時間序列與篩選邏輯，挖掘深層的業務關聯。</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="text-yellow-500 mb-4 text-3xl">🐍</div>
+                <h3 class="font-bold text-xl mb-2">Python 開發</h3>
+                <p class="text-gray-500 text-sm">利用 Python 進行自動化爬蟲、數據清洗與預測建模，擴充分析的邊界。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6 italic">「我的目標，是讓數據不再只是數字。」</h2>
+                <p class="text-gray-400 mb-10 text-lg">
+                    我正在尋找一份挑戰與成長並存的職位，理想的職稱包括 <strong>數據分析師 (Data Analyst)</strong>、<strong>BI 工程師</strong> 或 <strong>數據專案負責人</strong>。
+                </p>
+                <div class="bg-gray-800 p-8 rounded-lg text-left border border-gray-700">
+                    <h4 class="text-blue-400 font-bold mb-4">我能為貴公司帶來的價值：</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start"><span class="mr-2">🚀</span> 建立自動化的數據工作流，減少 80% 的人工製表時間。</li>
+                        <li class="flex items-start"><span class="mr-2">🎯</span> 透過 DAX 與 Python 深入拆解業務痛點，提供可落地的建議。</li>
+                        <li class="flex items-start"><span class="mr-2">🤝</span> 作為技術與業務的橋樑，翻譯複雜需求為具體的視覺化成果。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-gray-500 text-sm">
+        <p>© 2026 數據分析專業個人簡介 | 由 Gemini 協作產生</p>
+    </footer>
+
 </body>
 </html>
